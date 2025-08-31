@@ -1,40 +1,161 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abdur Rahman — Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Portfolio of Abdur Rahman — Designer & Developer">
   <link rel="stylesheet" href="style.css">
-  <title>Abdur Rahman- portfolio</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background-color: rgb(0, 0, 35);
-      color: white;
-    }
-  </style>
 </head>
 
 <body>
-
-  <!--Header section code-->
-
-  <header class="header">
-    <nav>
-      <div class="left"></div>
-      <h1>Abdur Rahman</h1>
-      <div class="right"></div>
-    </nav>
-
-
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Abdur Rahman</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#Skills">Skills</a>
+        "
+      </nav>
+      <div class="social">
+        <a class="social-link" href="https://www.linkedin.com/in/abdur-rahman-126b71358" target="_blank"
+          rel="noopener noreferrer" aria-label="LinkedIn">
+          <!-- simple svg icon -->
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4v13h-4v-13zM9.5 8.5h3.8v1.8h.05c.53-1 1.83-2.1 3.77-2.1 4.04 0 4.79 2.66 4.79 6.12v7.2h-4v-6.4c0-1.53-.03-3.5-2.13-3.5-2.13 0-2.46 1.66-2.46 3.4v6.5h-4v-13z" />
+          </svg>
+        </a>
+        <a class="social-link" href="https://github.com/Arahman0507" target="_blank" rel="noopener noreferrer"
+          aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+            <path
+              d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55 0-.27-.01-1-.02-1.96-3.2.7-3.88-1.43-3.88-1.43-.52-1.33-1.27-1.68-1.27-1.68-1.04-.71.08-.69.08-.69 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.67 1.25 3.32.96.1-.75.4-1.25.73-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.52-1.47.11-3.06 0 0 .96-.31 3.14 1.18a10.9 10.9 0 0 1 2.86-.38c.97 0 1.95.13 2.86.38 2.17-1.5 3.13-1.18 3.13-1.18.64 1.59.24 2.77.12 3.06.74.81 1.18 1.84 1.18 3.1 0 4.43-2.71 5.4-5.29 5.68.41.36.78 1.1.78 2.22 0 1.6-.02 2.89-.02 3.28 0 .31.21.66.79.55C20.71 21.4 24 17.09 24 12 24 5.65 18.35.5 12 .5z" />
+          </svg>
+        </a>
+      </div>
+    </div>
   </header>
 
-</body>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Hello — I'm <span class="name">Abdur Rahman</span></h2>
+          <p class="lead">About Me :
+
+            👋 Hi, I’m Abdur Rahman, a passionate Web Developer with a strong focus on building clean, user-friendly,
+            and responsive websites. I love turning ideas into interactive digital experiences using HTML, CSS,
+            JavaScript, and modern frameworks.
+
+            💡 I enjoy solving problems with code and continuously learning new technologies to stay updated in this
+            fast-paced tech world. Whether it’s creating sleek portfolios, functional business websites, or full-stack
+            applications, I strive to deliver quality and efficiency.
+
+            🚀 My goal is to craft websites that are not only visually appealing but also optimized for performance,
+            accessibility, and scalability.
+
+            ⚡ Skills I bring to the table:
+
+            Frontend: HTML, CSS, JavaScript, React
+
+            Backend: Node.js, Express
+
+            Database: MongoDB, MySQL
+
+            Tools: Git, GitHub, VS Code
+
+            🌱 Currently, I’m exploring advanced frontend frameworks and improving my backend development skills.</p>
+          <p>
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn ghost" href="#contact">Contact me</a>
+          <p>
+            📧 Email:
+            <a href="aqibansari85420@gmail.com">aqibansari85420@gmail.com</a>
+          </p>
+          <p>
+            📞 Phone:
+            <a href="tel:+9199887799">+91 8542040794</a>
+          </p>
+
+          </p>
+        </div>
+        <div class="hero-photo" aria-hidden="false">
+          <!-- Replace photo.jpg with your own image file -->
+          <div class="hero-photo" aria-hidden="false">
+            <img src="abdur.jpg" alt="Portrait of Abdur Rahman">
+          </div>
+
+
+        </div>
+    </section>
+
+    <div class="skill"><span>C</span>
+      <div class="bar">
+        <div class="fill" style="width:85%">85%</div>
+      </div>
+    </div>
+
+    <div class="skill"><span>Python</span>
+      <div class="bar">
+        <div class="fill" style="width:90%">90%</div>
+      </div>
+    </div>
+
+    <div class="skill"><span>Java</span>
+      <div class="bar">
+        <div class="fill" style="width:80%">80%</div>
+      </div>
+    </div>
+
+    <div class="skill"><span>HTML & CSS</span>
+      <div class="bar">
+        <div class="fill" style="width:95%">95%</div>
+      </div>
+    </div>
+
+    <div class="skill"><span>JavaScript</span>
+      <div class="bar">
+        <div class="fill" style="width:75%">75%</div>
+      </div>
+    </div>
+
+
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h3>About me</h3>
+        <p>I’m Abdur Rahman, a creative and detail-oriented Web Developer passionate about building modern, responsive,
+          and user-friendly websites. With experience in HTML, CSS, JavaScript, and React, I enjoy transforming ideas
+          into functional digital solutions.
+
+          I focus on writing clean, efficient code and keeping up with the latest web technologies. My goal is to
+          deliver websites that are not only visually appealing but also fast, accessible, and scalable.</p>
+      </div>
+    </section>
+
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h3>Selected projects</h3>
+        <div class="grid">
+          <article class="card">
+            <h4>Project 1: Project 1: Text conert into QR code</h4>
+            <p>Text Convert into QR code using html, css ,js react.js,node.js etc, This project are used for any text
+              data are genrate QR code.</p>
+            <a class="card-link" href="#">View case study →</a>
+          </article>
+
+
+          <article class="card">
+            <h4>Project Two</h4>
+            <p>Short description of the project. Tools: Illustrator, Photoshop.</p>
+            <a class="card-link" href="#">View case study →</a>
+          </article>
+
 
 </html>
